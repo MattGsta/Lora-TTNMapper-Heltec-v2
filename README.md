@@ -1,5 +1,6 @@
 # Lora-TTNMapper-Heltec-v2
 
+
 ## Summary
 
 Code for a TTNMapper node with GPS running on a [Heltec "WiFi Lora32 **V2**"](https://heltec.org/project/wifi-lora-32/) node, based on [Heltec-Wifi-Lora-32-TTN-Mapper by sistemasorp](https://github.com/sistemasorp/Heltec-Wifi-Lora-32-TTN-Mapper)
@@ -17,6 +18,11 @@ Code for a TTNMapper node with GPS running on a [Heltec "WiFi Lora32 **V2**"](ht
 * Stay quiet, LoRa TX only if GPS `HDOP` is below a certain limit
 * Vext is initialized during start, you may connect the GPS to Vext
 * Display of distance to your mapped "home" gateway
+
+## Matt's changes: 
+* Updated config to AU 915 
+* Minor GPS change 
+
 
 ## Get it running
 
